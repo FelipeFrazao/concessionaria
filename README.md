@@ -1,1 +1,1 @@
-"# concessionaria" 
+"# Simple object-oriented TypeScript app"
