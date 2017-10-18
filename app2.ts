@@ -18,8 +18,18 @@ class Carro {
         return this.velocidade;
     };
 }
+class Concessionaria {
+    private endereco: string;
+    private listaDeCarros: any;
 
-let carroA = new Carro("Veloster", 3, 260);
-console.log(carroA);
-carroA.acelerar();
-console.log(carroA);
+    constructor(endereco: string) {
+        this.endereco = endereco;
+    }
+
+    public fornecerEndereco(): string {
+        return this.endereco;
+    };
+    public mostrarListaDeCarros(): any {
+        return this.listaDeCarros;
+    };
+}
