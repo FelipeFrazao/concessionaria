@@ -70,4 +70,10 @@ let listaDeCarros: Carro[] = [carroA, carroB, carroC];
 let concessionaria = new Concessionaria("Avenida Rio Branco", listaDeCarros);
 
 //exibir lista de carros
-console.log(concessionaria);
+//console.log(concessionaria);
+
+//comprar o carro
+let cliente = new Pessoa("José", "BMW X4");
+
+//mostrar carro preferido
+console.log(cliente.dizerCarroPreferido());
