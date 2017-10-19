@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b407c381-c70f-46ce-b669-c36787a8e9de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app2.js" afterPath="$PROJECT_DIR$/app2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app2.ts" afterPath="$PROJECT_DIR$/app2.ts" />
     </list>
@@ -27,9 +26,12 @@
       <file leaf-file-name="app2.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app2.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="60" column="40" lean-forward="false" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="412">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding>
+                <element signature="n#Carro#0" expanded="false" />
+                <element signature="n#Pessoa#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,7 +153,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11257000" />
+    <option name="totallyTimeSpent" value="11971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="974" y="0" width="393" height="735" extended-state="0" />
@@ -207,7 +209,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#Carro#0" expanded="false" />
+            <element signature="n#Pessoa#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -223,7 +228,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="n#Carro#0" expanded="false" />
+            <element signature="n#Pessoa#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -305,7 +313,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="n#Carro#0" expanded="false" />
+            <element signature="n#Pessoa#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -321,7 +332,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="n#Carro#0" expanded="false" />
+            <element signature="n#Pessoa#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -403,7 +417,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="n#Carro#0" expanded="false" />
+            <element signature="n#Pessoa#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -419,7 +436,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="n#Carro#0" expanded="false" />
+            <element signature="n#Pessoa#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -499,9 +519,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app2.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="60" column="40" lean-forward="false" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="412">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="n#Carro#0" expanded="false" />
+            <element signature="n#Pessoa#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -21,8 +21,9 @@ var Carro = (function () {
     return Carro;
 }());
 var Concessionaria = (function () {
-    function Concessionaria(endereco) {
+    function Concessionaria(endereco, listaDeCarros) {
         this.endereco = endereco;
+        this.listaDeCarros = listaDeCarros;
     }
     Concessionaria.prototype.fornecerEndereco = function () {
         return this.endereco;
@@ -34,6 +35,7 @@ var Concessionaria = (function () {
     ;
     return Concessionaria;
 }());
+//classe pessoa
 var Pessoa = (function () {
     function Pessoa(nome, carroPreferido) {
         this.nome = nome;
@@ -57,5 +59,12 @@ var Pessoa = (function () {
     ;
     return Pessoa;
 }());
-var pessoa = new Pessoa('José ', "Chevet");
-console.log(pessoa.dizerCarroPreferido());
+/*criar carros*/
+var carroA = new Carro("dodge journey", 4, 230);
+var carroB = new Carro("Veloster", 3, 200);
+var carroC = new Carro("BMW X4", 4, 280);
+// montar lista de carros da concessionária
+var listaDeCarros = [carroA, carroB, carroC];
+var concessionaria = new Concessionaria("Avenida Rio Branco", listaDeCarros);
+//exibir lista de carros
+console.log(concessionaria);
