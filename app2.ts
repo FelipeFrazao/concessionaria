@@ -3,8 +3,7 @@ import Moto from "./moto";
 
 let carro = new Carro('Veloster', 3, 200);
 
-let moto = new Moto();
+let moto = new Moto("RR 1100", 300);
 
-moto.acelerar();
 console.log(carro);
 console.log(moto);

@@ -19,6 +19,10 @@ var Moto = (function (_super) {
         _this.velocidade = velocidade;
         return _this;
     }
+    Moto.prototype.acelerar = function () {
+        this.velocidade = this.velocidade + 20;
+    };
+    ;
     return Moto;
 }(veiculo_1.default));
 exports.default = Moto;
