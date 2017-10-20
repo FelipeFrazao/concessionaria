@@ -4,6 +4,7 @@ var carro_1 = require("./carro");
 var pessoa_1 = require("./pessoa");
 var moto_1 = require("./moto");
 var concessionariaDao_1 = require("./concessionariaDao");
+var pessoaDAO_1 = require("./pessoaDAO");
 var concessionaria_1 = require("./concessionaria");
 //criar carros
 var carroA = new carro_1.default("dodge journey", 4, 230);
@@ -22,7 +23,9 @@ concessionaria.mostrarListaDeCarros().map(function (carro) {
         cliente.comprarCarro(carro);
     }
 });
-var dao = new concessionariaDao_1.ConcessionariaDao();
+var daoC = new concessionariaDao_1.ConcessionariaDao();
+var daoP = new pessoaDAO_1.PessoaDAO;
 console.log(cliente.dizerCarroQueTem());
 console.log(concessionaria.fornecerHorariosDeFuncionamento());
-dao.inserir(concessionaria);
+daoC.inserir(concessionaria);
+daoP.inserir(cliente);
