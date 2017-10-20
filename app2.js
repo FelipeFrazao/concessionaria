@@ -71,4 +71,11 @@ var concessionaria = new Concessionaria("Avenida Rio Branco", listaDeCarros);
 //comprar o carro
 var cliente = new Pessoa("José", "BMW X4");
 //mostrar carro preferido
-console.log(cliente.dizerCarroPreferido());
+//console.log(cliente.dizerCarroPreferido());
+concessionaria.mostrarListaDeCarros().map(function (carro) {
+    if (carro["modelo"] == cliente.dizerCarroPreferido()) {
+        //comprar o carro
+        cliente.comprarCarro(carro);
+    }
+});
+console.log(cliente.dizerCarroQueTem());
