@@ -1,5 +1,7 @@
 import Carro from "./carro";
 import Pessoa from "./pessoa";
+import Moto from "./moto";
+import { ConcessionariaDao } from "./concessionariaDao";
 import Concessionaria from "./concessionaria";
 
 //criar carros
@@ -12,18 +14,19 @@ let listaDeCarros: Carro[] = [carroA, carroB, carroC];
 
 let concessionaria = new Concessionaria("Avenida Rio Branco", listaDeCarros);
 
-//exibir lista de carros
-//console.log(concessionaria);
-
 //comprar o carro
 let cliente = new Pessoa("José", "BMW X4");
 
+let moto = new Moto("RR 1100", 300);
+
 //mostrar carro preferido
-//console.log(cliente.dizerCarroPreferido());
 concessionaria.mostrarListaDeCarros().map((carro: Carro)=> {
     if (carro["modelo"] == cliente.dizerCarroPreferido()){
         //comprar o carro
         cliente.comprarCarro(carro);
     }
 });
+let dao: ConcessionariaDao = new ConcessionariaDao();
 console.log(cliente.dizerCarroQueTem());
+console.log(concessionaria.fornecerHorariosDeFuncionamento());
+dao.inserir(concessionaria);
