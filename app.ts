@@ -1,8 +1,7 @@
 import Carro from "./carro";
 import Pessoa from "./pessoa";
 import Moto from "./moto";
-import { ConcessionariaDao } from "./concessionariaDao";
-import { PessoaDAO } from "./pessoaDAO";
+import { Dao } from "./dao";
 import Concessionaria from "./concessionaria";
 
 //criar carros
@@ -28,8 +27,9 @@ concessionaria.mostrarListaDeCarros().map((carro: Carro)=> {
     }
 });
 
-let daoC: ConcessionariaDao = new ConcessionariaDao();
-let daoP: PessoaDAO = new PessoaDAO;
+let daoC: Dao<Concessionaria> = new Dao<Concessionaria>();
+let daoP: Dao<Pessoa> = new Dao<Pessoa>();
+let daoM: Dao<Moto> = new Dao<Moto>();
 
 console.log(cliente.dizerCarroQueTem());
 console.log(concessionaria.fornecerHorariosDeFuncionamento());
